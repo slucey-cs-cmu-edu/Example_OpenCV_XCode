@@ -14,8 +14,8 @@
 		528433431B82DC2D00850239 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528433421B82DC2D00850239 /* Images.xcassets */; };
 		528433461B82DC2D00850239 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 528433441B82DC2D00850239 /* LaunchScreen.xib */; };
 		528433521B82DC2D00850239 /* Example_OpenCVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 528433511B82DC2D00850239 /* Example_OpenCVTests.m */; };
-		52ECF0DD1B93DA5300DDAADC /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52ECF0DC1B93DA5300DDAADC /* opencv2.framework */; };
-		52ECF0DF1B93DA9000DDAADC /* lena.png in Resources */ = {isa = PBXBuildFile; fileRef = 52ECF0DE1B93DA9000DDAADC /* lena.png */; };
+		52ECF0E11B93DF6D00DDAADC /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52ECF0E01B93DF6D00DDAADC /* opencv2.framework */; };
+		52ECF0E31B93DF9F00DDAADC /* lena.png in Resources */ = {isa = PBXBuildFile; fileRef = 52ECF0E21B93DF9F00DDAADC /* lena.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,8 +42,8 @@
 		5284334B1B82DC2D00850239 /* Example_OpenCVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Example_OpenCVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		528433501B82DC2D00850239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		528433511B82DC2D00850239 /* Example_OpenCVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Example_OpenCVTests.m; sourceTree = "<group>"; };
-		52ECF0DC1B93DA5300DDAADC /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../../../OpenCV_iOS_v2/ios/opencv2.framework; sourceTree = "<group>"; };
-		52ECF0DE1B93DA9000DDAADC /* lena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lena.png; path = ../../../../Answers/Assignment_0/Intro_iOS_Lena/Intro_iOS_Lena/lena.png; sourceTree = "<group>"; };
+		52ECF0E01B93DF6D00DDAADC /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		52ECF0E21B93DF9F00DDAADC /* lena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lena.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52ECF0DD1B93DA5300DDAADC /* opencv2.framework in Frameworks */,
+				52ECF0E11B93DF6D00DDAADC /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +68,7 @@
 		528433291B82DC2D00850239 = {
 			isa = PBXGroup;
 			children = (
-				52ECF0DC1B93DA5300DDAADC /* opencv2.framework */,
+				52ECF0E01B93DF6D00DDAADC /* opencv2.framework */,
 				528433341B82DC2D00850239 /* Example_OpenCV */,
 				5284334E1B82DC2D00850239 /* Example_OpenCVTests */,
 				528433331B82DC2D00850239 /* Products */,
@@ -102,7 +102,7 @@
 		528433351B82DC2D00850239 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				52ECF0DE1B93DA9000DDAADC /* lena.png */,
+				52ECF0E21B93DF9F00DDAADC /* lena.png */,
 				528433361B82DC2D00850239 /* Info.plist */,
 				528433371B82DC2D00850239 /* main.m */,
 			);
@@ -209,7 +209,7 @@
 				528433411B82DC2D00850239 /* Main.storyboard in Resources */,
 				528433461B82DC2D00850239 /* LaunchScreen.xib in Resources */,
 				528433431B82DC2D00850239 /* Images.xcassets in Resources */,
-				52ECF0DF1B93DA9000DDAADC /* lena.png in Resources */,
+				52ECF0E31B93DF9F00DDAADC /* lena.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +361,7 @@
 					"$(inherited)",
 					/Users/slucey/Downloads,
 					/Users/slucey/Git_Projects/OpenCV_iOS_v2/ios,
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Example_OpenCV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -376,6 +377,7 @@
 					"$(inherited)",
 					/Users/slucey/Downloads,
 					/Users/slucey/Git_Projects/OpenCV_iOS_v2/ios,
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Example_OpenCV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
